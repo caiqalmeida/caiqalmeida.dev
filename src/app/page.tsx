@@ -1,3 +1,5 @@
+import { BlogPosts } from "@/app/components/posts";
+
 export default function Home() {
-  return <h1>Hi Caique</h1>;
+  return <BlogPosts />;
 }
